@@ -58,14 +58,9 @@ Clients.txt // Stores client records in the format:.
 2. Place `Clients.txt` in the same folder as the program (it will be created automatically if it doesn't exist).  
 3. Compile the program:
 
-```bash
-g++ -o BankManagementApp BankManagementApp.cpp
-Run the program:
-
-./BankManagementApp
-Use the Main Menu and Transactions Menu to navigate the application.
 
 🔹 Sample Operations
+
 Adding a New Client:
 
 Input account number, pin code, name, phone, and initial balance.
@@ -105,3 +100,11 @@ Include transaction history logs for each client.
 Improve user interface with color-coded outputs.
 
 Implement data encryption for sensitive information.
+
+
+```bash
+g++ -o BankManagementApp BankManagementApp.cpp
+Run the program:
+
+./BankManagementApp
+Use the Main Menu and Transactions Menu to navigate the application.
